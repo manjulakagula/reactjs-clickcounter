@@ -1,0 +1,57 @@
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  min-height: 100vh;
+}
+
+.counter-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+  color: #2d3a35;
+}
+
+@media screen and (min-width: 768px) {
+  .counter-heading {
+    font-size: 45px;
+  }
+}
+
+.counter-value {
+  color: #c20a72;
+  font-weight: 800;
+}
+
+.counter-description {
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .counter-description {
+    font-size: 35px;
+  }
+}
+
+.button-container {
+  align-self: center;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+}
